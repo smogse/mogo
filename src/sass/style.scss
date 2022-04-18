@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+.about {
+    width: 1510px;
+    height: 849px;
+    margin: auto;
+
+    &__title-wripper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__tittle {
+        font-family: 'Kaushan Script', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        margin: auto;
+        margin-bottom: 24px;
+    }
+
+    &__subtittle {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 900;
+        font-size: 36px;
+        margin: auto;
+        margin-bottom: 24px;
+    }
+
+    &__line {
+        width: 170px;
+        border: 4px solid #F38281;
+        background: #F38281;
+        margin: auto;
+        margin-bottom: 24px;
+    }
+
+    &__info-wripper {
+        margin: auto;
+        width: 1170px;
+        height: 118px;
+    }
+
+    &__info {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 58px;
+    }
+
+    &__image-wripper {
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+        width: 1170px;
+    }
+
+    &__image1 {
+        width: 370px;
+        height: 338px;
+        background-image: url(../image/unsplash_Sc5RKXLBjGg.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    &__image2 {
+        width: 370px;
+        height: 338px;
+        background-image: url(../image/unsplash_T5nXYXCf50I.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    &__image3 {
+        width: 370px;
+        height: 338px;
+        background-image: url(../image/unsplash_ACt8ycSzpdE.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    &__button-wripper {
+        width: 370px;
+        height: 338px;
+        background: linear-gradient(rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
+        border: none;
+    }
+
+    &__button {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    &__add {
+        width: 40px;
+        height: 40px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    &__text {
+        width: 370px;
+        height: 28px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        color: #FFFFFF;
+    }
+}
+
+.futures {
+    width: 1510px;
+    height: 250px;
+    background: #95E1D3;
+    margin: auto;
+    margin-bottom: 42px;
+
+    &__box-wripper {
+        width: 1170px;
+        display: flex;
+        margin: auto;
+    }
+
+    &__box {
+        width: 234px;
+        height: 250px;
+        border: 1px solid #FFFFFF;
+        border-top: none;
+        border-bottom: none;
+    }
+
+    &__numbers {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 64px;
+        color: #FFFFFF;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        color: #FFFFFF;
+        text-align: center;
+        margin: 0;
+    }
+}
+
+.amazing {
+    width: 1170px;
+    height: 683px;
+    margin: auto;
+    margin-bottom: 91px;
+
+    &__tittle-wripper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__tittle {
+        font-family: 'Kaushan Script', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    &__subtittle {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 900;
+        font-size: 36px;
+        margin: auto;
+        margin-bottom: 24px;
+    }
+
+    &__line {
+        width: 170px;
+        border: 4px solid #F38281;
+        background-color: #F38281;
+        margin: auto;
+        margin-bottom: 88px;
+    }
+
+    &__box-wripper {
+        width: 1149px;
+        height: 839px;
+        margin: auto;
+    }
+
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    &__block-wripper {
+        display: flex;
+        width: 360px;
+        height: 131px;
+        margin-bottom: 148px;
+    }
+
+    &__icon {
+        width: 65px;
+        height: 55px;
+        margin-right: 40px;
+    }
+
+    &__block {
+        flex-direction: column;
+        align-content: flex-end;
+    }
+
+    &__label {
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    &__info {
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 18px;
+        width: 270px;
+        height: 80px;
+    }
+}
+
+.devices {
+    width: 1510px;
+    height: 868px;
+    margin: auto;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../image/unsplash_lpjb_UMOyx8.png);
+
+    &__tittle-wripper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__tittle {
+        font-family: 'Kaushan Script', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+    }
+
+    &__subtittle {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 900;
+        font-size: 36px;
+        align-items: center;
+        text-align: center;
+    }
+
+    &__line {
+        width: 170px;
+        border: 4px solid #F38281;
+        background: #F38281;
+        margin: auto;
+        margin-bottom: 59px;
+    }
+
+    &__wripper {
+        position: relative;
+        width: 1170px;
+        height: 525px;
+        display: flex;
+        margin: auto;
+    }
+
+    &__tablet {
+        background-image: url(../image/Rectangle\ 10.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+
+    &__mobile {
+        width: 200px;
+        height: 412px;
+        position: absolute;
+        z-index: 2;
+        left: 770px;
+        top: 212px;
+    }
+}
+
+.services {
+    width: 1510px;
+    height: 984px;
+    margin: auto;
+
+    &__wripper {
+        width: 1170px;
+        height: 828px;
+        margin: auto;
+    }
+
+    &__tittle-wriper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__tittle {
+        font-family: 'Kaushan Script', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+    }
+
+    &__subtittle {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 900;
+        font-size: 36px;
+        align-items: center;
+        text-align: center;
+    }
+
+    &__line {
+        width: 170px;
+        border: 4px solid #F38281;
+        background: #F38281;
+        margin: auto;
+    }
+
+    &__about {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.partners {
+    width: 1510px;
+    height: 211px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+    &__wrippers {
+        width: 1172px;
+        height: 127px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+    }
+
+    &__link {
+        text-decoration: none;
+    }
+}
+
+.clients {
+    width: 1510px;
+    height: 923px;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../image/unsplash_-qrcOR33ErA.png);
+    background-repeat: no-repeat;
+    margin: auto;
+
+    &__tittle-wripper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    &__tittle {
+        font-family: 'Kaushan Script', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    &__subtittle {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 900;
+        font-size: 36px;
+        margin: auto;
+        margin-bottom: 24px;
+    }
+
+    &__line {
+        width: 170px;
+        border: 4px solid #F38281;
+        background-color: #F38281;
+        margin: auto;
+        margin-bottom: 42px;
+    }
+
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: auto;
+        width: 1149px;
+        height: 612px;
+        margin-bottom: 42px;
+    }
+
+    &__block-wripper {
+        display: flex;
+        width: 549px;
+        height: 285px;
+    }
+
+    &__icon {
+        width: 130px;
+        height: 130px;
+        margin-right: 50px;
+    }
+
+    &__block {
+        flex-direction: column;
+        align-content: flex-end;
+    }
+
+    &__name {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    &__specialization {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        margin-bottom: 32px;
+    }
+
+    &__miniline {
+        width: 70px;
+        border: 4px solid #F38281;
+        background: #F38281;
+        margin-bottom: 32px;
+    }
+
+    &__info {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #2D3033;
+        align-items: center;
+    }
+}
+
+.map {
+    width: 1510px;
+    height: 231px;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../image/unsplash_x3REnO9z7io.png);
+    background-repeat: no-repeat;
+    margin: auto;
+
+    &__tittle-wripper {
+        margin: auto;
+    }
+
+    &__location {
+        width: 42px;
+        height: 42px;
+        margin: auto;
+        display: flex;
+        margin: auto;
+    }
+
+    &__tittle {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 900;
+        font-size: 36px;
+        color: #F38281;
+        align-items: center;
+        text-align: center;
+    }
+
+    &__line {
+        width: 170px;
+        border: 4px solid #F38281;
+        background: #F38281;
+        margin: auto;
+    }
+}
