@@ -1,0 +1,29 @@
+{
+  "name": "mogo",
+  "version": "1.0.0",
+  "description": "test",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smogse/mogo.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "olya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smogse/mogo/issues"
+  },
+  "homepage": "https://github.com/smogse/mogo#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.4.1",
+    "parcel": "^2.4.1",
+    "sass": "^1.49.11"
+  }
+}
